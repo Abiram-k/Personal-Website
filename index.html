@@ -1,291 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website.</title>
-    <link rel="icon" href="http://t0.gstatic.com/images?q=tbn:ANd9GcQvp5_EHguNtDS6QpXxsuUzBIIYx26Oi7pm2DlTStLiP_TACt_oa84QQNkKg6L222mThzjI" type="image/icon type">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-      .nav{
-        direction:rtl;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Web</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e07c17a43b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script></script>
 </head>
-<body>
-    <header class="bg-warning"style="position:fixed;width:100%;z-index:1;">
-        <div class="row text-black ">
-            <div class="col-md-6 p-3 ps-5 col-9"><!--p-3-means padding ,inbuilt bootstrap,ps-padding left-->
-                <h2 >Abiram k</h2>
 
-            </div>
-            <div class="col-md-6 my-auto  col-3 nav">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  
-                  <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse ms-10" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                      <li class="nav-item">
-                        <a class="nav-link active text-black" aria-current="page" href="#home-section">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active text-black" href="#service-section">Sevices</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle text-black " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Levels
-                        </a>
-                        <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">1-10</a></li>
-                          <li><a class="dropdown-item" href="#">10+</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Legend</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item m">
-                        <a class="nav-link active text-black" href="#experience-section">Experience</a>
-                      </li>
-                      
+<body style="background-color:#007bff;">
+  <header class="header colorr">
+    <div class="container">
+
+      <div class="row ">
+        <div class="col-md-8 col-2  navibar bg-transparent ">
+          <nav class="navbar navbar-expand-lg navbar-light pt-4 ">
+            <div class="container-fluid ">
+
+              <button class="navbar-toggler bg-white  me-auto buttoon" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse nav navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav col-12" style="background:#007bff;font-size: 20px;width: 200px;">
+                  <li class="nav-item">
+                    <a class="nav-link active text-center" style="color:#fff;" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center " style="color:#fff;" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" style="color:#fff;" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-center" style="color:#fff;" href="#"
+                      id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-center" href="#skill">My Skill</a></li>
+                      <li><a class="dropdown-item text-center" href="#e&E">Education & Experience</a></li>
                     </ul>
-                    
-                  </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" style="color:#fff;" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" style="color:#fff;" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-4 col-8 text-white ms-auto mt-3">
+          <a href="https://www.facebook.com/abiram.k.334?mibextid=gik2fB"
+            class="fa-brands fa-facebook-f ps-3 fb ffa-brands"></a>
+          <a href="https://www.instagram.com/_uk_newton_?igshid=YzVkODRmOTdmMw=="
+            class="fa-brands fa-instagram ps-3 ffa-brands" style="font-size:15px;"></a>
+          <a href="https://x.com/Abiram0107?t=uz7PT206YqxduvtaacU46Q&s=09" class="fa-brands fa-twitter ps-3 ffa-brands"
+            style="font-size:15px"></a>
+          <a href="https://media.licdn.com/dms/image/C560BAQEjeAMse_2FgA/company-logo_200_200/0/1630660416002/un_available_ltd__logo?e=2147483647&v=beta&t=oVmBSzlZOxinoj-kvDSrNQ-_U5ZVN6-WtDPmARThQtw"
+            class="fa-brands fa-pinterest ps-3 ffa-brands" style="font-size:15px"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container"id="home">
+      <div class="row mt-3">
+        <div class="col-md-6 col-5 " style="margin-left: -50px;">
+          <i class="fa-solid my-auto fa-crown float-end text-white "></i>
+        </div>
+        <div class="col-md-6 col-7">
+          <h1 class="name-title my-auto">Creative Profile</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="first-block col-md-12 col-12 ">
+        <p class="content-title ps-5 pt-5 ">Hai. Iam'</p>
+        <p class="content-title ps-5" style="margin-top:-20px;margin-left:60px;font-weight:bold;">Abiram K.</p>
+        <p class="content-title-lines ps-5 col-11 col-md-9">Exceptionally creative and dependable Entry Level Web
+          Developer with a stellar customer service record and superb work ethic. <br>Broadly and deeply knowledgeable
+          in a wide variety of computer languages <br>as well as the principles and techniques of website construction
+          and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay
+          audiences in a clear and understandable manner.</p>
+        <button class="btn mt-3 ms-5" type="button" style="border:1px solid;">Read more</button>
+      </div>
+    </div>
+  </section>
+  <div class="example"></div>
+  <section>
+    <div class="container">
+      <div class=" col-12 col-md-12 second-block "id="about">
+        <h2 class="about-me ps-5 pt-5">About Me</h2>
+        <h1 class="ps-5 pt-2 sub-about">I'm a Professional Web Designer</h1>
+        <p class="ps-5 col-11 col-md-9 pt-3 about-content">I am passionate about staying abreast of emerging trends in
+          the web development landscape and have a solid understanding of version control systems like Git. With a keen
+          eye for detail and a commitment to delivering high-quality code, I am eager to contribute my skills and
+          continue learning in a collaborative and growth-oriented professional environment.</p>
+        <div class="col-md-9">
+          <botton class="btn-cv bg-info text-white ms-5 mt-4 text-center pt-2" type="button">Downlod CV</botton>
+          <botton class="btn-hire bg-primary text-white ms-1 mt-4 text-center pt-2" type="button">Hire Me</botton>
+        </div>
+        <img class="ms-5 col-9 col-md-5 mt-4 img-about"
+          src="https://p.w3layouts.com/demos_new/template_demo/27-02-2019/creative_profile-demo_Free/701625407/web/images/about.jpg">
+      </div>
+    </div>
+  </section>
+  <div class="example"></div>
+  <section>
+    <div class="container "id="services">
+      <div class="third-block col-12">
+
+        <div class=" col-12  ">
+          <h2 class="service ps-5 pt-5">Services</h2>
+        </div>
+        <div class="row cards">
+
+          <div class="service-cards col-12 col-md-4">
+            <div class="card    mt-5" style="width: 18rem;margin-left:82px;border:none;background:whitesmoke;">
+              <div class="card-body text-center">
+                <i class="fa-solid fa-desktop icons"></i>
+                <br>
+                <h6 class="card-subtitle" style="margin-top:5px;font-weight: 650;">Web Designing</h6>
+                <br>
+                <p class="card-text">Currentln In Progress...</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="service-cards col-12 col-md-4">
+            <div class="card    mt-5" style="width: 18rem;margin-left:82px;border:none;background:whitesmoke;">
+              <div class="card-body text-center">
+                <i class="fa-solid fa-screwdriver-wrench icons"></i>
+                <br>
+                <h6 class="card-subtitle" style="margin-top:5px;font-weight: 650;">Developing</h6>
+                <br>
+                <p class="card-text">Currentln In Progress...</p>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="service-cards col-12 col-md-4 mb-5">
+            <div class="card    mt-5" style="width: 18rem;margin-left:82px;border:none;background:whitesmoke;">
+              <div class="card-body text-center">
+                <i class="fa-regular fa-comments iconsres"></i>
+                <br>
+                <h6 class="card-subtitle" style="margin-top:5px;font-weight: 650;">Responsive</h6>
+                <br>
+                <p class="card-text">Currentln In Progress...</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="example"></div>
+        <h2 class="myskill ps-5 pt-5 mb-2"id="skill">My Skills</h2>
+        <p class="ps-5 col-11 col-md-9 pt-3 about-content">software developer proficient in multiple programming
+          languages with a strong background in system architecture and a proven track record of delivering
+          high-quality, scalable solutions. Expertise includes full-stack development, agile methodologies, and
+          continuous integration.</p>
+        <div class="container">
+          <div class="bars col-12 col-md-6">
+            <h5 class="ps-5 mt-5 bars-title">WEB DESIGING - 90%</h5>
+            <div class=" col-10 ms-5 mt-3 w3-light-grey" style="border-radius: 10px;">
+              <div class="w3-container  w3-center"
+                style="width:90%;border-radius: 10px;background-color: #ff4f81;height: 15px;"></div>
+            </div><br>
+            <h5 class="ps-5 mt-2 bars-title">RESPONSIVE DESIGN - 85%</h5>
+            <div class="w3-light-grey ms-5 mt-2  col-10" style="border-radius: 10px;">
+              <div class="w3-container  w3-center"
+                style="width:85%;border-radius: 10px;background-color: #0dd3ff;height: 15px;"></div>
+            </div><br>
+            <h5 class="ps-5 mt-2 bars-title">self learning - 80% </h5>
+            <div class="w3-light-grey ms-5 mt-2 col-10 " style="border-radius: 10px;">
+              <div class="w3-container w3-blue w3-center"
+                style="width:80%;border-radius: 10px;background-color: #3369e7;height: 15px;"></div>
+            </div>
+          </div>
+
+          <div class="row card2 col-12 col-md-6">
+
+            <div class="service-cards col-6">
+              <div class="card    mt-5 ms-2"
+                style="width: 15rem;margin-left:75px;border:none;background:transparent;height: auto;">
+                <div class="card-body text-center">
+                  <i class="fa-solid fa-briefcase  " style="color: #ff4f81;font-size: 40px;margin-left: 77px;"></i>
+                  <br>
+                  <br>
+                  <h6 class="card-text" style="font-style: inherit; 
+          letter-spacing: 1px;"><span>10</span><br><br>Fresher</h6>
                 </div>
-              </nav>
-              
+              </div>
             </div>
+            <div class="service-cards col-6">
+              <div class="card    mt-5 ms-2"
+                style="width: 15rem;margin-left:75px;border:none;background:transparent;height: auto;">
+                <div class="card-body text-center">
+                  <i class="fa-regular fa-file" style="color: #007bff;font-size: 40px;"></i>
+                  <br>
+                  <h6 class="card-text cards"><span>1</span><br><br>Projects</h6>
+                </div>
+              </div>
+            </div>
+            <div class="service-cards col-6">
+              <div class="card    mt-5 ms-2"
+                style="width: 15rem;margin-left:75px;border:none;background:transparent;height: auto;">
+                <div class="card-body text-center">
+
+                  <i class="fa-solid fa-trophy" style="color: #0dd3ff;font-size: 40px;margin-left: 77px;"></i>
+                  <br>
+                  <br>
+                  <h6 class="card-text" style="font-style: inherit; 
+          letter-spacing: 1px;"><span>10</span><br><br>Achievments</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="ps-5 col-12 col-md-9  about-content">
+          <p class="ps-5 col-11 col-md-9 pt-3 about-content">software developer proficient in multiple programming
+            languages with a strong background in system architecture and a proven track record of delivering
+            high-quality, scalable solutions. Expertise includes full-stack development, agile methodologies, and
+            continuous integration.</p>
+          </p>
         </div>
-    </header>
-    <section id="home-section"style="padding-top:10em">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcQvp5_EHguNtDS6QpXxsuUzBIIYx26Oi7pm2DlTStLiP_TACt_oa84QQNkKg6L222mThzjI"class="img-fluid rounded-circle">
+        <div class="example"></div>
 
 
-          </div>
-          <div class="col-md-6">
-            <h4 class="pt-3">If the latest news is to be believed, only a little time is left for the Clash of Clans Town Hall 16 update to go live. <br><br>The eagerly-anticipated patch is expected to go live later today, December 11, if content specialist We Clash is to be believed. While players can start preparing for all the upcoming content and a new Town Hall, they should also note that a maintenance break could likely occur.</h4>
-            <p>"Work Hard To Acheive Anything You Want"</p>
-            <footer>-Abiram</footer>
-
-          </div>
+        <h2 class="myskill ps-5 pt-5 mb-2">Projects</h2>
+        <div class="row col-12"id="projects">
+          <img class="col-6 col-xl-4 mt-5 ms-5" style="height: 130px;
+ width: 200px;"
+            src="https://visualmodo.com/wp-content/uploads/2018/03/Reasons-Why-Images-Not-Loading-on-Your-Website-2.gif"
+            alt="not more">
+          <img class="col-6 col-xl-4 mt-5 " style="height: 130px;
+ width: 200px;"
+            src="https://visualmodo.com/wp-content/uploads/2018/03/Reasons-Why-Images-Not-Loading-on-Your-Website-2.gif"
+            alt="not more">
+          <img class="col-6 col-xl-4 ms-5 mt-5" style="height: 130px;
+ width: 200px;"
+            src="https://visualmodo.com/wp-content/uploads/2018/03/Reasons-Why-Images-Not-Loading-on-Your-Website-2.gif"
+            alt="not more">
+          <img class="col-6 col-md-4  mt-5" style="height: 130px;
+ width: 200px;"
+            src="https://visualmodo.com/wp-content/uploads/2018/03/Reasons-Why-Images-Not-Loading-on-Your-Website-2.gif"
+            alt="not more">
+          <img class="col-6 col-md-6 ms-5 mt-5 mb-5" style="height: 130px;
+ width: 200px;"
+            src="https://visualmodo.com/wp-content/uploads/2018/03/Reasons-Why-Images-Not-Loading-on-Your-Website-2.gif"
+            alt="not more">
         </div>
-      </div>
-    </section>
-    <section class="bg-light "id="service-section"style="padding-top:10em">
-      <div class="container">
-        <h1 class="text-center">Services</h1>
-
-        <div class="row ">
-          <div class="col-md-4   pt-5  ps-7">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Mobile Game</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4  pt-5 ps-7">
-            <div class="card text-center p-2 " >
-              <i class="fa-solid fa-laptop text-center display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">PC Game</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4  pt-5  ps-7">
-            <div class="card text-center p-2 " >
-              <i class="fa-brands fa-playstation display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Play Station 5</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="row ">
-
-          <div class="col-md-4  pt-5">
-            <div class="card text-center p-2 " >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">name of service</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 pt-5">
-            <div class="card text-center p-2 " >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 pt-5">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      
-    </section>
-    <section class="bg-white"id="experience-section"style="padding-top:10em">
-      <div class="container">
-        <h1 class="text-center">Experiences</h1>
-        <div class="row ps-10">
-            
-          <div class="col-md-4 pt-5 ps-9">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pt-5 ps-9">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pt-5 ps-9">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pt-5 ps-9">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pt-5 ps-9">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pt-5 ps-9">
-            <div class="card text-center p-2" >
-              <i class="fa-solid fa-mobile display-1 text-warning"></i>
-              <div class="card-body">
-                <h5 class="card-title">Name of Services</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <section class="pt-5 bg-light">
-      <div class="container">
-        <div>
-        <h1 class="text-center">Contact me</h1>
-      </div>
-      <div class="col-md-12">
+        <div class="example"></div>
+        <h2 class="myskill ps-5 pt-5 mb-2"id="e&E">Education And Experience</h2>
         <div class="row">
-          
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Name</label>
-                <input type="text" class="form-control " id="inputEmail4" placeholder="Name">
+          <div class="col-12  col-md-12 mt-5 text-center">
+            <button class="col-6 text-light text-center" style="background-color:black;
+  height: 45px;width:150px"><i class="fa-solid fa-graduation-cap ms-4" style="font-size:22px"></i>Education</button>
+          </div>
+          <div class="Education">
+            <h4 class="ms-5 fonts mt-5">BSc Computer Science</h4>
+            <h6 class="fonts bg-light" style="font-style: italic;margin-left:165px;width:220px">Barathiyar University -
+              2024</h6>
+            <p class="ms-5 mt-4"> From Chinmaya Mission College , Kolazhy , Thrissur</p>
+            <div class="row">
+              <div class="teach fonts ms-5 mt-3 col-5">
+                <h3 style="color: green;">Teachers</h3>
+                <ul>
+                  <li>Harsha</li>
+                  <li>SreeLatha</li>
+                  <li>Aswini</li>
+                  <li>Vimitha</li>
+                  <li>Minsha</li>
+                  <li>Bini</li>
+                  <li>Rajesh</li>
+                </ul>
               </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Phone Number</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="Phone number">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your Phone Number with anyone else.</small>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Email</label>
-                <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+              <div class="teach fonts  mt-3 col-5">
+                <h3 style="color:green">Chunkzzzz</h3>
+                <ul>
+                  <li>Akhil</li>
+                  <li>Anand</li>
+                  <li>Fasaludheen</li>
+                  <li>AkshayJith</li>
+                </ul>
               </div>
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Adress">
+            <h4 class="ms-5 fonts mt-5">Biology Science</h4>
+            <h6 class="fonts bg-light" style="font-style: italic;margin-left:165px;width:220px">State Board - 2019</h6>
+            <p class="ms-5 mt-4">From Chaldean Syrian Higher Secondary School , Thrissur</p>
+
+            <div class="col-12  col-md-12 mt-5 text-center">
+              <button class="col-6 text-light text-center" style="background-color:black;
+    height: 45px;width:150px;border:none"><i class="fa-solid fa-briefcase ms-4"
+                  style="font-size:22px"></i>Experience</button>
             </div>
-            
-             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group ">
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>Kerala</option>
-                  <option>Tamil Nadu</option>
-                  <option>North-India</option>
-                  <option>Other</option>
-                </select>
-              </div>
-              <div class="form-group pt-3">
-                <label for="inputAddress">Message</label>
-                <textarea class="form-control"cols="30" rows="10"placeholder="Enter your message here"></textarea>
-              </div>
-              
-            </div>
-            <div class="form-group text-center pt-3">
-            <button type="submit" class="btn btn-primary "style="width: 100%;">Submit</button>
-           </div>
-          </form>
+            <li class=" mt-5 mb-5" style="margin-left:48px;">No Experience Yet ...</li>
+          </div>
         </div>
       </div>
-      </div>
-      
-    </section>
-    <footer class="bg-warning mt-5" style="padding-top:16px;">
-      <div class="container">
-        <dibv class="row">
-          <div class="col-md-12 text-center text-black">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <p>Copyrights</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container"id="contact">
+      <div class=" foot col-6 ">
+        <h2 class="myskill ps-5 pt-5 mb-2 text-white">Get In Touch</h2>
+        <form class="formm fonts ms-5 mt-5 col-12">
+          <label class="text-white ">Name *</label><br>
+          <input class="mt-3 mb-2 fonts text-white" type="text" placeholder="Enter Your Name"
+            style="background:#1b4ab6;border:none;width:410px;height:55px">
+          <br>
+          <label class=" text-white ">Email *</label><br>
+          <input class=" fonts mb-2 text-white" type="text" placeholder="Enter Your Email Address"
+            style="background:#1b4ab6;border:none;width:410px;height:55px">
+          <br>
+          <label class="text-white " for="inputAddress">Send a Message *</label>
+          <textarea class="fonts mb-2 text-white form-control" cols="30" rows="10" placeholder="Enter your message here"
+            style="background:#1b4ab6;border:none;width:410px;height:150px"></textarea>
+          <input class="fonts mt-1 mb-5 text-center" type="submit"
+            style="background:white;color:#007bff;width:150px;height:55px;border:none">
+        </form>
+
+        <div class="text center last-border "></div>
+
+        <div class="mt-5 ms-5" style="width:500px">
+          <div class=" col-12 ">
+            <p class="text-white"><i class="fa-regular text-white fonts fa-copyright"></i> 2023 Creative Profile. All
+              Rights Reserved | Design by</p>
+            <div class="text-center" style="padding-right:121px">
+              <a class=" fonts text-white mb-5" href="https://www.instagram.com/_uk_newton_?igshid=YzVkODRmOTdmMw=="
+                style="text-decoration:none">Abiram K</a>
+            </div>
           </div>
-        </dibv>
+        </div>
+
       </div>
-    </footer>
+    </div>
+
+  </footer>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e07c17a43b.js" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

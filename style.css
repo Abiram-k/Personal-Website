@@ -1,0 +1,248 @@
+.header {
+
+    width: 100%;
+    height: 100px;
+}
+
+.colorr {
+    background: #007bff;
+}
+
+.colory {
+    background: yellow;
+}
+
+.name-title {
+    color: #fff;
+    font-style: inherit;
+    font-weight: 100;
+    font-size: 33px;
+    margin-left: -15px;
+}
+
+
+
+.fa-solid {
+    float: left;
+    font-size: 40px;
+
+}
+
+.buttoon {
+    margin-left: -33px
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.fb {
+    font-size: 15px;
+    margin-left: 154px;
+    margin-top: 20px;
+}
+
+.ffa-brands {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}
+
+.content-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+    font-weight: 100;
+    font-size: 31px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}
+
+.btn {
+
+    height: 50px;
+    width: 120px;
+    font-style: inherit;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: gainsboro;
+    color: white;
+
+}
+
+.content-title-lines {
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}
+
+.first-block {
+    width: 300px;
+    margin-top: 40px;
+    background-image: url('table1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 100%;
+    height: 630px;
+}
+
+.second-block {
+    width: 300px;
+    height: 850px;
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 100%;
+}
+
+.third-block {
+    width: 300px;
+    height: auto;
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 100%;
+}
+
+.fourth-block {
+    width: 300px;
+    height: 650px;
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+
+    background-size: 95% 100%;
+}
+
+.about-me {
+    font-style: inherit;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 100;
+}
+
+.sub-about {
+    font-size: 17px;
+}
+
+.about-content {
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}
+
+.btn-cv {
+    height: 45px;
+    width: 150px;
+    font-style: inherit;
+    letter-spacing: 1px;
+}
+
+.btn-hire {
+    height: 45px;
+    width: 110px;
+    font-style: inherit;
+    letter-spacing: 1px;
+}
+
+.example {
+    border: 1px solid;
+    width: 100%;
+    position: relative;
+    color: #007bff;
+}
+
+.service {
+    font-style: inherit;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #000;
+    font-weight: lighter;
+}
+
+.icons {
+    font-size: 25px;
+    padding-left: 108px;
+    color: #007bff;
+}
+
+.cards {
+    font-style: inherit;
+    letter-spacing: 1px;
+}
+
+.iconsres {
+    font-size: 25px;
+
+    color: #007bff;
+}
+
+.myskill {
+    font-style: inherit;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #000;
+    font-weight: lighter;
+}
+
+.bars-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-last {
+    font-style: inherit;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.fonts {
+    font-style: inherit;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.foot {
+    width: 100%;
+    height: 825px;
+}
+
+::placeholder {
+    font-style: inherit;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.last-border {
+    border: 1px solid white;
+    width: 200%;
+    position: relative;
+    margin-top: 55px;
+}
